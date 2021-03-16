@@ -1,0 +1,95 @@
+/* aタグの下線を削除 */
+a{
+    text-decoration:none;
+}
+
+/* ヘッダーボタンの配置設定(右上) */
+.header-btn{
+    position: fixed;
+    top:5px;
+    right:5px;
+}
+/* ヘッダーテキストの配置設定(左上) */
+.header-text{
+    position: fixed;
+    top:5px;
+    left:5px;
+}
+
+/* セレクトボタンの配置設定(中央) */
+.select-btn{
+    margin:auto;
+    margin-top:40vh;
+    width:300px;
+}
+/* フォームの配置設定(中央)*/
+.login-form{
+    margin:auto;
+    margin-top: 35vh;
+    width:300px;
+}
+.regist-form{
+    margin:auto;
+    margin-top: 25vh;
+    width:300px;
+}
+.shift-form{
+    margin:auto;
+    margin-top: 25vh;
+}
+.password-form{
+    margin:auto;
+    margin-top: 30vh;
+    width:300px;
+}
+.tmp-btn{
+    display: block;
+    margin:auto;
+    margin-top: 25vh;
+}
+.tmp-form{
+    margin:auto
+}
+
+.center{
+    width:250px;
+    margin:auto;
+    margin-top:40vh;
+}
+
+
+.float-right{
+    float:right;
+}
+.float-left{
+    float:left;
+}
+
+/* 赤色枠線 */
+.border-red{
+    border-style: solid;
+    border-color: red;
+}
+
+.fixed-btn{
+    position:fixed;
+    width:150px;
+    left:calc(50% - 150px/2);
+    top: 20vh;
+}
+
+.sticky{
+  position: sticky;
+  left: 0;
+  background: #eee;
+}
+
+.fixed-submit-btn{
+    position: fixed;
+    right: 5px;
+}
+.fixed-text{
+    position: fixed;
+    width: 300px;
+    left:calc(50% - 300px/2);
+}
